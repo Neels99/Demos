@@ -1,0 +1,37 @@
+﻿============================= RUS ============================= 
+
+						ОПИСАНИЕ ПРОЕКТОВ (ПАПОК)
+
+_data - тестовые демонстрационные материалы
+
+dataview - модуль отображения данных. 
+	Демонстрирует:
+	1. Работа с DLL
+	2. Работа с XML
+	3. Создание интерфейсов
+	Работает с outres.dll
+
+outres - dll
+	Демонстрирует:
+	1. Использование форм в библиотеках
+	2. Работа с нестандартизированными параметрами
+	3. Организацию стандартного вызова данных	
+
+============================= ENG ============================= 
+
+						PROJECTS (FOLDERS) DESCRIPTION
+
+_data - test demonstration materials
+
+dataview - data view application 
+	Demonstrates:
+	1. Work with DLL
+	2. Work with DLL XML
+	3. Adaptation of the interface
+	Depends on outres.dll
+
+outres - dll
+	Demonstrates:
+	1. Forms using in DLLs
+	2. Using of untype parametrs
+	3. StdCall using
