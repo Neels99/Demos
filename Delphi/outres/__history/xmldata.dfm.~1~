@@ -1,0 +1,10 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 266
+  Width = 401
+  object XMLDocument1: TXMLDocument
+    Left = 16
+    Top = 16
+    DOMVendorDesc = 'MSXML'
+  end
+end

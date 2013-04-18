@@ -1,0 +1,80 @@
+unit dialogbar;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, jpeg, pngimage,
+  Dialogs, StdCtrls, ExtCtrls;
+
+type
+  Tdlgform = class(TForm)
+    Button1: TButton;
+    Image1: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+    procedure LoadImg(source:string);
+  public
+    { Public declarations }
+    procedure SetParams(title,brief,maincontext,secondarycontext,imgpath:string);
+  end;
+
+var
+  dlgform: Tdlgform;
+
+implementation
+
+{$R *.dfm}
+
+{ TForm2 }
+
+procedure Tdlgform.FormCreate(Sender: TObject);
+begin
+  Image1.Picture := nil;
+
+  Label1.Caption := '';
+  Label2.Caption := '';
+  Label3.Caption := '';
+
+  Caption := Application.Title;
+end;
+
+procedure Tdlgform.LoadImg(source: string);
+var fext : string;
+begin
+  if fileexists(source) then
+    try
+      fext := ExtractFileExt(source);
+      if fext = '.bmp' then Image1.Picture.LoadFromFile(source) else
+        if (fext = '.jpg') or (fext = '.jpeg') then Image1.Picture.
+
+
+    except on e:exception do
+      begin
+        //ShowMessage('Unable to load picture. Reason - '+e.Message);
+        Image1.Canvas.Rectangle(0,0,Image1.Width,Image1.Height);
+        Image1.Canvas.TextOut(5,2,e.Message);
+      end;
+    end
+  else
+  begin
+    Image1.Canvas.Rectangle(0,0,Image1.Width,Image1.Height);
+    Image1.Canvas.TextOut(5,2,'Нет');
+  end;
+end;
+
+procedure Tdlgform.SetParams(title, brief, maincontext, secondarycontext, imgpath: string);
+begin
+  if(title <> '') then Caption := title;
+
+  Label1.Caption := brief;
+  Label2.Caption := maincontext;
+  Label3.Caption := secondarycontext;
+
+  LoadImg(imgpath);
+end;
+
+end.

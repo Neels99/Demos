@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2013.04.17 11:10:57.482.dproj,C:\Users\Santino\Documents\RAD Studio\Projects\Project1.dproj=J:\Programming\Demos\Delphi\outres\outres.dproj</Transaction>
+    <Transaction>2013.04.17 11:16:30.323.pas,J:\Programming\Demos\Delphi\outres\Unit2.pas=J:\Programming\Demos\Delphi\outres\dialogbar.pas</Transaction>
+    <Transaction>2013.04.17 11:16:30.323.dfm,J:\Programming\Demos\Delphi\outres\Unit2.dfm=J:\Programming\Demos\Delphi\outres\dialogbar.dfm</Transaction>
+    <Transaction>2013.04.17 21:11:43.552.pas,J:\Programming\Demos\Delphi\outres\Unit1.pas=J:\Programming\Demos\Delphi\outres\xmldata.pas</Transaction>
+    <Transaction>2013.04.17 21:11:43.552.dfm,J:\Programming\Demos\Delphi\outres\Unit1.dfm=J:\Programming\Demos\Delphi\outres\xmldata.dfm</Transaction>
+    <Transaction>2013.04.18 15:30:29.128.pas,J:\Programming\Demos\Delphi\outres\xmldata.pas=</Transaction>
+    <Transaction>2013.04.18 15:30:29.133.dfm,J:\Programming\Demos\Delphi\outres\xmldata.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,12 @@
+<xml>
+	<node name="name01" position="pos001" brief="Display BD01" context="Secondary context c001" subcontext="Subitem context data sc01">../_data/neo.jpg</node>
+	<node name="name02" position="pos002" brief="Display BD02" context="Secondary context c002" subcontext="Subitem context data sc02">../_data/building.png</node>
+	<node name="name03" position="pos003" brief="Display BD03" context="Secondary context c003" subcontext="Subitem context data sc03">../_data/felix.jpg</node>
+	<node name="name04" position="pos004" brief="Display BD04" context="Secondary context c004" subcontext="Subitem context data sc04">../_data/neo.jpg</node>
+	<node name="name05" position="pos005" brief="Display BD05" context="Secondary context c005" subcontext="Subitem context data sc05">../_data/felix.jpg</node>
+	<node name="name06" position="pos006" brief="Display BD06" context="Secondary context c006" subcontext="Subitem context data sc06">../_data/felix.jpg</node>
+	<node name="name07" position="pos007" brief="Display BD07" context="Secondary context c007" subcontext="Subitem context data sc07">../_data/neo.jpg</node>
+	<node name="name08" position="pos008" brief="Display BD08" context="Secondary context c008" subcontext="Subitem context data sc08">../_data/building.png</node>
+	<node name="name09" position="pos009" brief="Display BD09" context="Secondary context c009" subcontext="Subitem context data sc09">../_data/building.png</node>
+	<node name="name10" position="pos010" brief="Display BD10" context="Secondary context c010" subcontext="Subitem context data sc10">../_data/felix.jpg</node>
+</xml>

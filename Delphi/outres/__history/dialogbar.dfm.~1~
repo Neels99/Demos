@@ -1,0 +1,86 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  ActiveControl = Button1
+  BorderStyle = bsDialog
+  Caption = 'Sample form'
+  ClientHeight = 117
+  ClientWidth = 420
+  Color = clCream
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 8
+    Top = 8
+    Width = 75
+    Height = 100
+  end
+  object Label1: TLabel
+    AlignWithMargins = True
+    Left = 90
+    Top = 3
+    Width = 327
+    Height = 25
+    Margins.Left = 90
+    Align = alTop
+    Caption = 'Briefing data'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ExplicitLeft = 89
+    ExplicitTop = 8
+    ExplicitWidth = 121
+  end
+  object Label2: TLabel
+    AlignWithMargins = True
+    Left = 90
+    Top = 34
+    Width = 327
+    Height = 16
+    Margins.Left = 90
+    Align = alTop
+    Caption = 'Label2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 4934475
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ExplicitWidth = 37
+  end
+  object Label3: TLabel
+    AlignWithMargins = True
+    Left = 90
+    Top = 56
+    Width = 327
+    Height = 13
+    Margins.Left = 90
+    Align = alTop
+    Caption = 'Label3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 9539985
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ExplicitWidth = 31
+  end
+  object Button1: TButton
+    Left = 337
+    Top = 83
+    Width = 75
+    Height = 25
+    Caption = 'Ok'
+    Default = True
+    TabOrder = 0
+  end
+end

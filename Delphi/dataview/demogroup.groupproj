@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{CBCBE18F-EA00-4CBD-A88A-28F631881280}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="dataview.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\outres\outres.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="dataview">
+			<MSBuild Projects="dataview.dproj"/>
+		</Target>
+		<Target Name="dataview:Clean">
+			<MSBuild Targets="Clean" Projects="dataview.dproj"/>
+		</Target>
+		<Target Name="dataview:Make">
+			<MSBuild Targets="Make" Projects="dataview.dproj"/>
+		</Target>
+		<Target Name="outres">
+			<MSBuild Projects="..\outres\outres.dproj"/>
+		</Target>
+		<Target Name="outres:Clean">
+			<MSBuild Targets="Clean" Projects="..\outres\outres.dproj"/>
+		</Target>
+		<Target Name="outres:Make">
+			<MSBuild Targets="Make" Projects="..\outres\outres.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="dataview;outres"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="dataview:Clean;outres:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="dataview:Make;outres:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,31 @@
+unit xmldata;
+
+interface
+
+uses
+  SysUtils, Classes, Dialogs, xmldom, XMLIntf, msxmldom, XMLDoc;
+
+type
+  TDM = class(TDataModule)
+    xmldoc: TXMLDocument;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM: TDM;
+
+implementation
+
+{$R *.dfm}
+
+procedure TDM.DataModuleCreate(Sender: TObject);
+begin
+  xmldoc.Active := true;
+  ShowMessage(xmldoc.XML.ToString);
+end;
+
+end.
