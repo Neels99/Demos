@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2013.05.02 23:26:54.080.pas,C:\Users\Santino\Documents\RAD Studio\Projects\Unit1.pas=J:\Programming\Demos\Delphi\consoleinout\main.pas</Transaction>
+    <Transaction>2013.05.02 23:26:54.080.dfm,C:\Users\Santino\Documents\RAD Studio\Projects\Unit1.dfm=J:\Programming\Demos\Delphi\consoleinout\main.dfm</Transaction>
+    <Transaction>2013.05.02 23:27:04.135.dproj,C:\Users\Santino\Documents\RAD Studio\Projects\Project1.dproj=J:\Programming\Demos\Delphi\consoleinout\cinout.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

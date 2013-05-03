@@ -1,0 +1,10 @@
+========================== ОПИСАНИЕ ========================== 
+
+1. scanner - пример многопоточного приложения
+2. testbox - набор тестов 
+	- consoleinout - тест для работы с ключами запускаемого файла (для последующего вывода данных в интерфейс другого приложения)
+	
+========================== DESCRIPTION ========================== 
+1. scanner - multithread application example
+2. testbox - test projects folder
+	- consoleinout - application key params test (for exporting console data to interface of the another applications)

@@ -17,6 +17,8 @@ outres - dll
 	2. Работа с нестандартизированными параметрами
 	3. Организацию стандартного вызова данных	
 
+consoleinout - приложение. Принимает и выводит консольный вывод запускаемого приложения.		
+	
 ============================= ENG ============================= 
 
 						PROJECTS (FOLDERS) DESCRIPTION
@@ -35,3 +37,5 @@ outres - dll
 	1. Forms using in DLLs
 	2. Using of untype parametrs
 	3. StdCall using
+
+consoleinout - application. Get and output console output from started console application.

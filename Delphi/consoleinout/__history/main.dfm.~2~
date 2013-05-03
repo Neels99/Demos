@@ -1,0 +1,105 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = #1042#1099#1079#1086#1074' '#1074#1085#1077#1096#1085#1077#1075#1086' '#1074#1099#1074#1086#1076#1072
+  ClientHeight = 210
+  ClientWidth = 727
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  DesignSize = (
+    727
+    210)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 11
+    Width = 97
+    Height = 13
+    Caption = #1048#1089#1087#1086#1083#1085#1103#1077#1084#1099#1081' '#1092#1072#1081#1083
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 42
+    Width = 97
+    Height = 13
+    Caption = #1048#1089#1087#1086#1083#1085#1103#1077#1084#1099#1081' '#1092#1072#1081#1083
+  end
+  object Edit1: TEdit
+    Left = 111
+    Top = 8
+    Width = 525
+    Height = 21
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 0
+    Text = 
+      'j:\Programming\Demos\CPP\Testbox\Debug\ConsoleInOut.exe -l login' +
+      ' -p password -to 250 -fm file.map'
+    ExplicitWidth = 322
+  end
+  object Button1: TButton
+    Left = 643
+    Top = 6
+    Width = 75
+    Height = 25
+    Anchors = [akTop, akRight]
+    Caption = #1042#1099#1087#1086#1083#1085#1080#1090#1100
+    TabOrder = 1
+    ExplicitLeft = 537
+  end
+  object Edit2: TEdit
+    Left = 111
+    Top = 39
+    Width = 525
+    Height = 21
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 2
+    Text = 
+      'j:\Programming\Demos\CPP\Testbox\Debug\ConsoleInOut.exe -l login' +
+      ' -p password -to 250 -fm'
+    ExplicitWidth = 322
+  end
+  object Button2: TButton
+    Left = 643
+    Top = 37
+    Width = 75
+    Height = 25
+    Anchors = [akTop, akRight]
+    Caption = #1042#1099#1087#1086#1083#1085#1080#1090#1100
+    TabOrder = 3
+    ExplicitLeft = 537
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 66
+    Width = 727
+    Height = 144
+    Align = alBottom
+    Caption = #1042#1099#1074#1086#1076' '#1076#1072#1085#1085#1099#1093
+    TabOrder = 4
+    ExplicitTop = 136
+    ExplicitWidth = 524
+    object Memo1: TMemo
+      AlignWithMargins = True
+      Left = 5
+      Top = 18
+      Width = 717
+      Height = 121
+      Align = alClient
+      ReadOnly = True
+      TabOrder = 0
+      ExplicitLeft = 64
+      ExplicitTop = 40
+      ExplicitWidth = 185
+      ExplicitHeight = 89
+    end
+  end
+end
