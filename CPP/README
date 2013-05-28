@@ -4,9 +4,14 @@
 2. testbox - набор тестов 
 	- consoleinout - тест для работы с ключами запускаемого файла (для последующего вывода данных в интерфейс другого приложения)
 	- sync-async-cs - клиент-серверное приложения (конфигурируется и как клиент, и как сервер): пересылает данные в синхронном и асинхронном режимах. Только для небольшого объёма данных
+	- RemoteCall - эмуляция клиент-серверного приложения, реализующего RPC. 
+	- COM-server и COM-client - пример использования технологии COM
 	
 ========================== DESCRIPTION ========================== 
 1. scanner - multithread application example
 2. testbox - test projects folder
 	- consoleinout - application key params test (for exporting console data to interface of the another applications)
 	- sync-async-cs - client-servar application; proceed data exchange between client and server. Server can work in sync or async mode;
+	- RemoteCall - RPC client-server application emulation.
+	- COM-server и COM-client - COM technology example
+	

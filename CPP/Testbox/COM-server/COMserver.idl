@@ -1,0 +1,53 @@
+// COMserver.idl: источник IDL для COM-server
+//
+
+// Этот файл будет обработан средством MIDL для
+// создания библиотеки типов (COMserver.tlb) и кода маршалирования.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(03C792C9-36E3-44F0-BBAC-0CFE6D6AC620),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IComTestServer : IDispatch{
+	[id(1)] HRESULT square([in] LONG sizeA, [in] LONG sizeB, [out,retval] LONG* result);
+};
+[
+	object,
+	uuid(F15368E7-E74C-497B-B22F-F89F6BCD8C77),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface Ifigure : IDispatch{
+	[id(1)] HRESULT draw([in] SHORT X, [in] SHORT Y);
+};
+[
+	uuid(047DB2F8-810B-4CED-860F-7A4EF2759071),
+	version(1.0),
+]
+library COMserverLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(CB0FFD73-90E5-447D-916D-3EB970E72304)		
+	]
+	coclass ComTestServer
+	{
+		[default] interface IComTestServer;
+	};
+	[
+		uuid(32DF4041-B656-422E-BB37-9327C65976F2)		
+	]
+	coclass figure
+	{
+		[default] interface Ifigure;
+	};
+};
+
+import "shobjidl.idl";

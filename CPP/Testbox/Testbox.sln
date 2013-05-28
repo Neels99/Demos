@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SyncAsyncCOUT", "SyncAsyncC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sync-async-cs", "sync-async-cs\sync-async-cs.vcxproj", "{8F9CDF08-777A-4D38-862A-2ACBCD5BA2CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "COM-server", "COM-server\COM-server.vcxproj", "{702C0B59-3130-4516-863C-A456442019F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "COM-client", "COM-client\COM-client.vcxproj", "{5E50D140-8ED4-429D-94D0-4B1A35E22674}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -43,6 +47,14 @@ Global
 		{8F9CDF08-777A-4D38-862A-2ACBCD5BA2CD}.Debug|Win32.Build.0 = Debug|Win32
 		{8F9CDF08-777A-4D38-862A-2ACBCD5BA2CD}.Release|Win32.ActiveCfg = Release|Win32
 		{8F9CDF08-777A-4D38-862A-2ACBCD5BA2CD}.Release|Win32.Build.0 = Release|Win32
+		{702C0B59-3130-4516-863C-A456442019F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{702C0B59-3130-4516-863C-A456442019F8}.Debug|Win32.Build.0 = Debug|Win32
+		{702C0B59-3130-4516-863C-A456442019F8}.Release|Win32.ActiveCfg = Release|Win32
+		{702C0B59-3130-4516-863C-A456442019F8}.Release|Win32.Build.0 = Release|Win32
+		{5E50D140-8ED4-429D-94D0-4B1A35E22674}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E50D140-8ED4-429D-94D0-4B1A35E22674}.Debug|Win32.Build.0 = Debug|Win32
+		{5E50D140-8ED4-429D-94D0-4B1A35E22674}.Release|Win32.ActiveCfg = Release|Win32
+		{5E50D140-8ED4-429D-94D0-4B1A35E22674}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
